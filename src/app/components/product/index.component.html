@@ -12,7 +12,7 @@
         <td>{{product.name}}</td>
         <td>{{product.price}}</td>
         <td>
-            <img src="https://angular-gcycan.stackblitz.io/assets/https://angular-gcycan.stackblitz.io/images/{{product.photo}}" width="50">
+            <img src="{{product.photo}}" width="50">
         </td>
         <td>
             <a [routerLink]="['/cart', { id:product.id }]">Buy Now</a>
