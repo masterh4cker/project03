@@ -9,7 +9,7 @@ export class ProductService {
 
     constructor() {
         this.products = [
-            { id: 'p01', name: 'name 1', price: 100, photo: 'download.jfif' },
+            { id: 'p01', name: 'name 1', price: 100, photo: 'shoe1.jpg' },
             { id: 'p02', name: 'name 2', price: 200, photo: 'thumb2.gif' },
             { id: 'p03', name: 'name 3', price: 300, photo: 'thumb3.gif' }
         ];
